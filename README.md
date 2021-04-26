@@ -16,6 +16,14 @@
 * Allow user to input their on color
 * Add event to the input so when user insert value, the color generator function runs. 
 
+### Declared Functions:
+* colorGenerator()
+* display()
+
+### Declared Events:
+* genSearch
+* genBtn
+
 
 By:
 - [@instinctHub](https://twitter.com/instincthub)
@@ -23,6 +31,6 @@ By:
 
 
 Links:
-[nct.js]()
+[nct.js](https://chir.ag/projects/ntc/ntc.js)
 
 

@@ -25,12 +25,11 @@ const display = (color) =>{
 }
 
 // Button 
-genBtn.addEventListener("click", function(){
-    colorGenerator()
+genSearch.addEventListener("click", function(){
+    colorGenerator(colorInput.value);
 });
 
 
-
-genSearch.addEventListener("click", function(){
-    colorGenerator(colorInput.value);
+genBtn.addEventListener("click", function(){
+    colorGenerator()
 });
