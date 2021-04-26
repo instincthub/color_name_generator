@@ -10,8 +10,7 @@ const colorGenerator = (color) => {
     return color_value
 }
 
-// Runs when page is refresh
-colorGenerator();
+
 
 // Display Color Function
 const display = (color) =>{
@@ -33,3 +32,6 @@ genSearch.addEventListener("click", function(){
 genBtn.addEventListener("click", function(){
     colorGenerator()
 });
+
+// Runs when page is refresh
+colorGenerator();
