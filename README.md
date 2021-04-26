@@ -31,6 +31,6 @@ By:
 
 
 Links:
-[nct.js](https://chir.ag/projects/ntc/ntc.js)
+[nct.js](https://chir.ag/projects/ntc/)
 
 
