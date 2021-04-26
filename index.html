@@ -14,13 +14,17 @@
     <section>
         <h1>Color Name Generator</h1>
         <form action="#">
-            <input type="text" name="color" id="color" placeholder="#00848f">
+            <input type="text" name="color" id="colorInput" placeholder="#00848f">
+            <input type="button" value="Search Color" id="genSearch">
             <input type="button" value="Generate Color" id="genBtn">
+            <div class="result">
+                <p>Name: <span id="colorName">Lagoon Blue</span></p>
+                <p>Hex: <span id="hexValue">#00848f</span></p>
+            </div>
         </form>
-        <div class="result">
-            <p>Name: <span id="color_name">Lagoon Blue</span></p>
-            <p>Value: <span id="hex_value">#00848f</span></p>
-        </div>
     </section>
+    
+    <script type="text/javascript" src="js/ntc.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

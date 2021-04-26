@@ -17,7 +17,7 @@ section{
 }
 
 h1{
-    margin-bottom: 40px;
+    margin-top: 40px;
     font-weight: 200;
 }
 
@@ -29,11 +29,16 @@ input{
 }
 
 input[type="button"]{
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: #333;
     border: none;
     color: #eee;
-    font-weight: 600; 
+    font-weight: 600;
+}
+
+#genSearch{
+    background-color: #00838f;
+    margin-top: 20px;
 }
 
 .result{
@@ -43,7 +48,7 @@ input[type="button"]{
 }
 
 .result p{
-    padding: 10px 10px;
+    padding: 10px;
     background-color: #eee;
     border-radius: 5px;
 }
