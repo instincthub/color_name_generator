@@ -1,37 +1,35 @@
-const colorGenerator = (color) => {
-    color_value = 0;
-    if (color){
-        color_value= display(color);
+//  Color Generator Function
+const colorGenerator = (color) =>{
+
+    if (color) {
+        displayColor(color);
     }
     else{
-        const randomColor = Math.floor(Math.random()*16777215).toString(16); 
-        color_value = display(randomColor);
+        const randomColor = Math.floor(Math.random()*16777215).toString(16);
+        displayColor(randomColor);
     }
-    return color_value
+
 }
 
 
+//  Display Color Function
+const displayColor = (color) =>{
+    let name_value = ntc.name(color);
 
-// Display Color Function
-const display = (color) =>{
-    name_value = ntc.name(color);
-
-    
     document.body.style.backgroundColor = name_value[0];
     colorInput.value = name_value[0];
     colorName.innerHTML = name_value[1];
-    hexValue.innerHTML = name_value[0]; 
+    hexValue.innerHTML = name_value[0];
+    
 }
 
-// Button 
+// Button Events 
 genSearch.addEventListener("click", function(){
     colorGenerator(colorInput.value);
-});
-
+})
 
 genBtn.addEventListener("click", function(){
-    colorGenerator()
-});
+    colorGenerator();
+})
 
-// Runs when page is refresh
 colorGenerator();
